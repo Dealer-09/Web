@@ -4,56 +4,56 @@ const bikeData=
         name: "BMW R1300GS",
         type: "ADVENTURE" ,
         price: 17,
-        image: "D:/vsJav/Web/images/bike-1.png",
+        image: "images/bike-1.png",
         tag: "Free Cancellation",
     },
     {
         name: "BMW R1300GS",
         type: "ADVENTURE" ,
         price: 17,
-        image: "D:/vsJav/Web/images/bike-2.png",
+        image: "images/bike-2.png",
         tag: "Free Cancellation",
     },
     {
         name: "BMW R1300GS",
         type: "ADVENTURE" ,
         price: 17,
-        image: "D:/vsJav/Web/images/bike-3.png",
+        image: "images/bike-3.png",
         tag: "Free Cancellation",
     },
     {
         name: "BMW R1300GS",
         type: "ADVENTURE" ,
         price: 17,
-        image: "D:/vsJav/Web/images/bike-4.png",
+        image: "images/bike-4.png",
         tag: "Free Cancellation",
     },
     {
         name: "BMW R1300GS",
         type: "ADVENTURE" ,
         price: 17,
-        image: "D:/vsJav/Web/images/bike-5.png",
+        image: "images/bike-5.png",
         tag: "Free Cancellation",
     },
     {
         name: "BMW R1300GS",
         type: "ADVENTURE" ,
         price: 17,
-        image: "D:/vsJav/Web/images/bike-6.png",
+        image: "images/bike-6.png",
         tag: "Free Cancellation",
     },
     {
         name: "BMW R1300GS",
         type: "ADVENTURE" ,
         price: 17,
-        image: "D:/vsJav/Web/images/bike-7.png",
+        image: "images/bike-7.png",
         tag: "Free Cancellation",
     },
     {
         name: "BMW R1300GS",
         type: "ADVENTURE" ,
         price: 17,
-        image: "D:/vsJav/Web/images/bike-8.png",
+        image: "images/bike-8.png",
         tag: "Free Cancellation",
     },
 ];
@@ -72,7 +72,7 @@ const createBikeBox = (bike) => `
                     <span class="tag">${bike.tag}</span>
 </div> 
 `;
-                const bikeContent = document.querySelector('.bikes-content');
+                const bikeContent = document.querySelector(".bikes-content");
 
 bikeData.forEach((bike) => {const bikeBoxHtml= createBikeBox(bike);
     bikeContent.insertAdjacentHTML('beforeend',bikeBoxHtml);
