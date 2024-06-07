@@ -19,6 +19,15 @@
     --container-color: #faeee4;
 }
 
+html::-webkit-scrollbar {
+    width: 0.5rem;
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--second-color);
+}
+
 img {
     width: 100%;
 }
